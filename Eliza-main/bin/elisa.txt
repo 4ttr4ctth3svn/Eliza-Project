@@ -1,0 +1,21 @@
+.*tuse.*febra.*=>Mergi la un doctor!|Ia paracetamol si bea ceaiuri.|Mergi la farmacie si intreaba de medicamentele potrivite.
+.*nu.*bani.*=>Ia-ti un job.|Mergi la o banca si imprumuta bani.|Vorbeste cu seful pentru o crestere de salariu
+.*doctorul.*nu.*ma.*intelege.*=>Ce te face sa crezi asta?|Poti sa mergi la un alt medic.|Consulta un tratat de medicina.
+.*racit.*=>Cum se manifesta raceala?|Cine ti-a pus diagnosticul?|Poate e vorba despre o alergie.
+.*am temperatura.*=>Vrei sa spui ca ai febra?|Tusesti?
+.*tuse.*=>Posibil sa fie gripa, raceala sau o alergie.|Un medic ORL ar trebui sa te consulte.
+.*antihistaminice.*=>Da, antihistaminicele sunt bune pentru alergii.|Daca ai vreo infectie bacteriana, va trebui sa iei antibiotice.
+.*antibiotice.*=>Medicul poate prescrie antibiotice.|Daca ai o viroza respiratorie, antibioticele nu te ajuta.|Consulta un medic.
+^(?=.*\b(mancarime|eruptie cutanata|umflaturi)\b).+$=>Cred ca ai urticarie. Iti recomand sa folosesti antihistaminice, creme topice cu hidrocortizon, evitarea alergenilor.
+^(?=.*\b(dureri de cap|greata|oboseala)\b).+$=>S-ar putea sa ai o afectiune virala. Odihneste-te mult, bea multe lichide, ia medicamente antipiretice si antiinflamatoare.
+^(?=.*\b(febra|tuse|dificultati respiratorii)\b).+$=>Aceste simptome sunt sugestive pentru o infectie respiratorie. Consulta medicul, stai acasa si evita contactul cu alte persoane.
+^(?=.*\b(durere in gat|febra|amigdale inflamate)\b).+$=>Este posibil sa ai amigdalita. Consulta medicul, ia medicamente antiinflamatoare si antibiotice.
+^(?=.*\b(durere abdominala|diaree|febra)\b).+$=>Aceste simptome sugereaza o infectie gastro-intestinala. Bea multe lichide, ia medicamente antidiareice si evita alimentele grele si grase.
+^(?=.*\b(durere de spate|furnicaturi|slabiciune musculara)\b).+$=>Aceste simptome pot fi asociate cu o afectiune a coloanei vertebrale sau cu o afectiune neurologica. Consulta medicul si efectueaza investigatii suplimentare.
+^(?=.*\b(durere toracica|dispnee|palpitatii)\b).+$=>Aceste simptome pot fi asociate cu o afectiune cardiaca. Consulta medicul si efectueaza un EKG si o evaluare a functiei cardiace.
+^(?=.*\b(amorteala|tulburari de vedere|tulburari de echilibru)\b).+$=>Aceste simptome pot fi asociate cu o afectiune neurologica. Consulta medicul si efectueaza o evaluare neurologica si o tomografie computerizata.
+^(?=.*\b(febra|transpiratii|pierdere in greutate)\b).+$=>Aceste simptome pot fi asociate cu o afectiune interna, cum ar fi o infectie sau un cancer. Consulta medicul si efectueaza analize de sange si o evaluare a functiei organelor interne.
+^(?=.*\b(dureri de cap|greata|varsaturi)\b).+$=>Aceste simptome pot fi asociate cu o afectiune neurologica, cum ar fi o migrena sau o leziune cerebrala. Consulta medicul si efectueaza o evaluare neurologica si o tomografie computerizata.
+^(?=.*\b(arsuri la stomac|balonare|dureri abdominale)\b).+$=>Aceste simptome pot fi asociate cu o afectiune gastrointestinala, cum ar fi o boala inflamatorie intestinala sau o ulceratie.
+^(?=.*\b(senzatie de arsura la urinar|urinare frecventa|sange in urina)\b).+$=>Exista posibilitatea sa ai o infectie urinara. Este necesar sa consulti un medic pentru a primi un tratament cu antibiotice.
+^(?=.*\b(dificultati de respiratie|tuse|febra)\b).+$=>Sper ca nu e pneumonie, dar consulta un medic ce iti va recomanda antibiotice, antiinflamatoare si antipiretice.

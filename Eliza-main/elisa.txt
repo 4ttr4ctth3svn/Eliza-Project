@@ -1,0 +1,23 @@
+.*tuse.*febra.*=>Mergi la un doctor!|Ia paracetamol si bea ceaiuri.|Mergi la farmacie si intreaba de medicamentele potrivite.
+.*nu.*bani.*=>Ia-ti un job.|Mergi la o banca si imprumuta bani.|Vorbeste cu seful pentru o crestere de salariu
+.*doctorul.*nu.*ma.*intelege.*=>Ce te face sa crezi asta?|Poti sa mergi la un alt medic.|Consulta un tratat de medicina.
+.*racit.*=>Cum se manifesta raceala?|Cine ti-a pus diagnosticul?|Poate e vorba despre o alergie.
+.*am temperatura.*=>Vrei sa spui ca ai febra?|Tusesti?
+.*tuse.*=>Posibil sa fie gripa, raceala sau o alergie.|Un medic ORL ar trebui sa te consulte.
+.*antihistaminice.*=>Da, antihistaminicele sunt bune pentru alergii.|Daca ai vreo infectie bacteriana, va trebui sa iei antibiotice.
+.*antibiotice.*=>Medicul poate prescrie antibiotice.|Daca ai o viroza respiratorie, antibioticele nu te ajuta.|Consulta un medic.
+^(?=.*\b(mancarime|eruptie cutanata|umflaturi)\b).+$=>Cred ca ai urticarie. Iti recomand sa folosesti antihistaminice.
+^(?=.*\b(dureri de cap|greata|oboseala)\b).+$=>S-ar putea sa ai o afectiune virala.
+^(?=.*\b(febra|tuse|dificultati respiratorii)\b).+$=>Aceste simptome sunt sugestive pentru o infectie respiratorie.
+^(?=.*\b(durere in gat|febra|amigdale inflamate)\b).+$=>Este posibil sa ai amigdalita. Consulta medicul, ia medicamente antiinflamatoare si antibiotice.
+^(?=.*\b(durere abdominala|diaree|febra)\b).+$=>Aceste simptome sugereaza o infectie gastro-intestinala.
+^(?=.*\b(durere de spate|furnicaturi|slabiciune musculara)\b).+$=>Aceste simptome pot fi asociate cu o afectiune a coloanei vertebrale sau cu o afectiune neurologica. Consulta medicul.
+^(?=.*\b(durere toracica|dispnee|palpitatii)\b).+$=>Aceste simptome pot fi asociate cu o afectiune cardiaca. Consulta medicul.
+^(?=.*\b(amorteala|tulburari de vedere|tulburari de echilibru)\b).+$=>Aceste simptome pot fi asociate cu o afectiune neurologica. Consulta medicul.
+^(?=.*\b(febra|transpiratii|pierdere in greutate)\b).+$=>Aceste simptome pot fi asociate cu o afectiune interna, cum ar fi o infectie sau un cancer. Consulta medicul.
+^(?=.*\b(dureri de cap|greata|varsaturi)\b).+$=>Aceste simptome pot fi asociate cu o afectiune neurologica, cum ar fi o migrena sau o leziune cerebrala. Consulta medicul.
+^(?=.*\b(arsuri la stomac|balonare|dureri abdominale)\b).+$=>Aceste simptome pot fi asociate cu o afectiune gastrointestinala.
+^(?=.*\b(senzatie de arsura la urinare|urinare frecventa|sange in urina)\b).+$=>Exista posibilitatea sa ai o infectie urinara.
+^(?=.*\b(dificultati de respiratie|tuse|febra)\b).+$=>Sper ca nu e pneumonie, dar consulta un medic.
+^(?=.*\b(multumesc|mersi|merci)\b).+$=>E placerea mea sa iti fiu de ajutor.|Nu ai pentru ce, doar imi fac datoria.|Oricand, sunt aici sa te ajut.
+^(?=.*\b(depresie|trist|nefericit|trista|nefericita|suparata|suparat|tristete)\b).+$=>Ce te face sa simti asta?.|Poti sa imi explici ce te face sa simti asta?
